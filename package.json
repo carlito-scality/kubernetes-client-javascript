@@ -28,8 +28,7 @@
     "clean": "rm -Rf node_modules/ dist/",
     "build": "tsc && mkdir -p dist/browser && cp src/browser/request-fetch.js src/browser/config.js src/browser/watch.js dist/browser/",
     "watch": "tsc --watch",
-    "test": "nyc mocha",
-    "prepare": "npm run build"
+    "test": "nyc mocha"
   },
   "nyc": {
     "include": [
